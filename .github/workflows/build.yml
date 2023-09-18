@@ -17,3 +17,8 @@ jobs:
 
     - name: Build project
       run: make
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: 3DeSktop.3dsx
+        path: 3DeSktop.3dsx
